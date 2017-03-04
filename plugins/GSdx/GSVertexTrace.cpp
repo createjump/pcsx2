@@ -88,8 +88,6 @@ void GSVertexTrace::Update(const void* vertex, const uint32* index, int v_count,
 		if(TEX1.MXL == 0) // MXL == 0 => MMIN ignored, tested it on ps2
 		{
 			m_filter.linear = m_filter.mmag;
-
-			return;
 		}
 		else
 		{
